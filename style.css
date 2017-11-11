@@ -1,0 +1,62 @@
+
+@font-face {
+    font-family: "minecraftBlock";
+    src: url(assets/minecraft.otf) format("opentype");
+}
+
+@font-face {
+    font-family: "minecraftTerminal";
+    src: url(assets/Minecraft-Regular.otf) format("opentype");
+}
+
+body{
+	background-image: url("assets/stone.png");
+	background-size: 50px 50px;
+	font-family: "minecraftTerminal", sans-serif;
+	color: white;
+}
+
+header{
+	display: flex;
+	justify-content: space-around;
+}
+
+header h1{
+	text-align: center;
+	width: 800px;
+	padding: 5px;
+	border-radius: 5px;
+	font-family: "minecraftBlock", sans-serif;
+	background-color: rgba(0,0,0,0.7);
+	padding-top: 40px;
+	font-size: 40px;
+}
+
+nav{
+	font-family: "minecraftBlock", sans-serif;
+	display: flex;
+	background-color: rgba(0,0,0,0.7);
+	justify-content: space-around;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	height: 40px;
+	background-image: url("assets/fire.gif");
+
+}
+
+nav a{
+	height: 40px;
+	width: 100px;
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	padding-top: 10px;
+	cursor: pointer;
+}
+
+nav a:hover{
+	/*background-color: red;*/
+	background-image: url("assets/fire.gif");
+	background-size: 50px 40px;
+}
