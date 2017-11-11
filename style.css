@@ -10,39 +10,44 @@
 }
 
 body{
+	background-color: black;
 	background-image: url("assets/stone.png");
 	background-size: 50px 50px;
 	font-family: "minecraftTerminal", sans-serif;
 	color: white;
+	background-attachment: fixed;
 }
 
 header{
 	display: flex;
 	justify-content: space-around;
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 header h1{
 	text-align: center;
-	width: 800px;
+	width: 600px;
 	padding: 5px;
 	border-radius: 5px;
 	font-family: "minecraftBlock", sans-serif;
-	background-color: rgba(0,0,0,0.7);
-	padding-top: 40px;
+	background-color: rgba(0,0,0,0.8);
+	padding-top: 15px;
 	font-size: 40px;
 }
 
 nav{
 	font-family: "minecraftBlock", sans-serif;
 	display: flex;
-	background-color: rgba(0,0,0,0.7);
+	background-color: rgba(0,50,0,0.8);
+	border-radius: 10px 10px 0px 0px;
 	justify-content: space-around;
 	margin-left: auto;
 	margin-right: auto;
-	width: 80%;
+	width: 800px;
 	height: 40px;
 	background-image: url("assets/fire.gif");
-
 }
 
 nav a{
@@ -53,10 +58,29 @@ nav a{
 	text-align: center;
 	padding-top: 10px;
 	cursor: pointer;
+	transition: 1s;
 }
 
 nav a:hover{
 	/*background-color: red;*/
 	background-image: url("assets/fire.gif");
-	background-size: 50px 40px;
+	background-size: 70px 40px;
+}
+
+main{
+	margin-top: 0px;
+	background-color: rgba(124, 35, 13, 0.8);
+	padding: 10px;
+	width: 780px;
+	border-radius: 0px 0px 10px 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#fireGif{
+	float: left;
+}
+
+#piston{
+	float: right;
 }
